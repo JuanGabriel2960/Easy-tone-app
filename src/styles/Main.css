@@ -1,0 +1,76 @@
+/* Main page styles */
+.cardMain{
+    margin: 0 auto;
+    width: 318px;
+    height: 152px;
+    padding: 0 1.5rem;
+    border-radius: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2.3rem;
+}
+.cardMain.red{
+    background: linear-gradient(243.92deg, #F54B65 0%, #F78361 98.09%);
+}
+.cardMain.blue{
+    background: linear-gradient(243.92deg, #5692E0 0%, #2DD39F 98.09%);
+}
+.cardMain.purple{
+    background: linear-gradient(243.92deg, #5C38BA 0%, #C86DD9 98.09%, #C86DD9 98.09%);
+}
+.infoCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.infoCard img{
+    cursor: pointer;
+}
+.titleCard{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.textInfo{
+    font-size: 1.4rem;
+    font-weight: 400;
+    max-width: 80%;
+}
+.textInfo.o{
+    font-size: 1.4rem;
+    font-weight: 400;
+    max-width: 60%;
+}
+.cardQuote{
+    margin: 0 auto;
+    text-align: left;
+    width: 318px;
+    height: 152px;
+    padding: 0 1.5rem;
+    border-radius: 20px;
+    background-color: #4E596F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2.3rem;
+}
+.infoQuote{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+.author{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.btnMain{
+    cursor: pointer;
+}
+.cont-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

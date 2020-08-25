@@ -1,0 +1,60 @@
+/* Hero page styles */
+
+.hero{
+    height: 100vh;
+}
+.cont-hero{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heroTitle{
+    font-size: 2.4rem;
+    font-weight: 600;
+    padding: 2.8rem 0;
+}
+.about-hero{
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-weight: 300;
+    max-width: 80%;
+}
+.btn{
+    margin: 0 auto;
+    color: #ffffff;
+    font-weight: 700;
+    width: 248px;
+    height: 53px;
+    border-radius: 30px;
+    background: linear-gradient(67.74deg, #F54B65 0%, #F78361 99.99%, #F78361 100%);
+    font-size: 2.4rem;
+    display: inline-block;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.points{
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.point{
+    font-size: 3rem;
+    color: #C4C4C4;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.point.on{
+    color: #F54B65;
+    font-size: 4.5rem;
+}
+.skip{
+    color: #C4C4C4;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+

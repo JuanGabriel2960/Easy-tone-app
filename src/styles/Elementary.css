@@ -1,0 +1,160 @@
+.cont-elementary h1{
+    max-width: 50%;
+    margin-bottom: 5rem;
+}
+.optionCircle{
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.circle{
+    width: 122px;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.optionCircle.red{
+    background: linear-gradient(151.08deg, #F54B65 13.74%, #F78361 86.1%);
+}
+.optionCircle.blue{
+    background: linear-gradient(151.08deg, #5692E0 13.74%, #2DD39F 86.1%);
+}
+.optionCircle.purple{
+    background: linear-gradient(151.08deg, #5C38BA 13.74%, #C86DD9 86.1%);
+}
+.cont-circles{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.messageCard{
+    background-image: url(../images/message.png);
+    background-position: center center;
+    background-size: cover;
+    width: 318px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+.messageCard p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+.cont-theory h1{
+    max-width: 50%;
+    margin-bottom: 3rem;
+}
+.cont-theory p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+.note{
+    padding-left: 2rem;
+    color: #FFB225;
+}
+.tt{
+    color: #FFB225;
+}
+.cont-theory img{
+    text-align: center;
+}
+.cont-exercises h1{
+    max-width: 50%;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.cont-exercises p{
+    margin: 2rem 0;
+}
+.infoE{
+    margin: 1rem 0;
+}
+.exercise h4{
+    font-size: 1.6rem;
+}
+.exercise p{
+    font-size: 1.3rem;
+    background-color: #4E596F;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.line{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+.line img{
+    margin-right: 1rem;
+}
+.sub{
+    text-decoration: line-through;
+}
+.exercise{
+    margin-bottom: 2rem;
+}
+.checkPieces{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.checkPieces img{
+    margin-right: 1rem;
+}
+.cont-test h1{
+    max-width: 50%;
+}
+.cont-test p{
+    margin: 2rem 0;
+}
+.cont-answer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.answer{
+    background-color: #4E596F;
+    width: 143px;
+    height: 34px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0.8rem;
+}
+.test{
+    margin: 2rem 0;
+}
+.hide{
+    display: none;
+}
+.score{
+    margin-top: 1rem;
+}
+.SvgPieces{
+    margin-top: 4rem;
+}
+.song{
+    margin-bottom: 2.2rem;
+}
+.song img{
+    filter: grayscale(1);
+    transition: 0.5s ease-in-out;
+}
+.song img:hover{
+    transform: scale(1.04);
+    filter: grayscale(0);  
+}
